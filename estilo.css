@@ -9,6 +9,70 @@ body{/* Cuerpo principal de la página */
     background:#f4f6f9;/* Color de fondo general */
 }
 
+.quick-nav{
+    position:fixed;/* Fija la navegación en la esquina */
+    top:20px;/* Distancia desde arriba */
+    right:20px;/* Distancia desde la derecha */
+    z-index:1000;/* Se mantiene por encima del contenido */
+    background:rgba(255,255,255,.97);/* Fondo blanco translúcido */
+    border:1px solid #dfe9f1;/* Borde suave */
+    border-radius:10px;/* Bordes redondeados */
+    box-shadow:0 5px 18px rgba(0,0,0,.12);/* Sombra discreta */
+    padding:8px 12px;/* Espaciado interno */
+    max-width:220px;/* Ancho máximo */
+}
+
+.quick-nav details{
+    width:100%;/* Ocupa el ancho disponible */
+}
+
+.quick-nav summary{
+    list-style:none;/* Elimina la flecha por defecto */
+    cursor:pointer;/* Cambia el cursor */
+    color:#163b52;/* Color institucional */
+    font-size:12px;/* Tamaño pequeño */
+    font-weight:bold;/* Texto en negrita */
+    text-transform:uppercase;/* Letras mayúsculas */
+    letter-spacing:.04em;/* Espaciado entre letras */
+    padding:2px 0;/* Espaciado interno */
+    user-select:none;/* Evita selección del texto */
+}
+
+.quick-nav summary::-webkit-details-marker{
+    display:none;/* Oculta el marcador del navegador */
+}
+
+.quick-nav summary::after{
+    content:"▾";/* Flecha hacia abajo */
+    float:right;/* La ubica a la derecha */
+    color:#176b87;/* Color institucional */
+}
+
+.quick-nav details[open] summary::after{
+    content:"▴";/* Flecha hacia arriba cuando está abierto */
+}
+
+.quick-nav ul{
+    list-style:none;/* Elimina viñetas */
+    margin:8px 0 0;/* Margen superior */
+    padding:0;/* Quita padding */
+    display:grid;/* Coloca los enlaces en columna */
+    gap:6px;/* Separación entre enlaces */
+}
+
+.quick-nav a{
+    display:block;/* Ocupa todo el ancho disponible */
+    padding:6px 8px;/* Espaciado interno */
+    border-radius:6px;/* Bordes redondeados */
+    color:#163b52;/* Color del texto */
+    text-decoration:none;/* Quita subrayado */
+    font-size:12px;/* Tamaño de texto */
+}
+
+.quick-nav a:hover{
+    background:#eaf3f7;/* Fondo al pasar el mouse */
+}
+
 /* LOGIN */
 
 /* Configuración de la página de inicio de sesión */
