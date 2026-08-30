@@ -1,0 +1,106 @@
+<!DOCTYPE html><!-- Indica que se está utilizando HTML5 -->
+<html lang="es"><!-- Inicio del documento HTML en español -->
+<head><!-- Configuración de la página -->
+    <meta charset="UTF-8"><!-- Permite mostrar caracteres especiales -->
+    <title>Revisión de Bitácoras</title><!-- Título mostrado en el navegador -->
+    <link rel="stylesheet" href="estilo.css"><!-- Vincula el archivo CSS -->
+</head><!-- Fin de la configuración -->
+<body><!-- Inicio del contenido visible -->
+
+<div class="dashboard"><!-- Contenedor principal -->
+
+    <aside class="sidebar"><!-- Barra lateral de navegación -->
+
+        <div class="sidebar-logo">GP</div><!-- Logo del sistema -->
+
+        <h2>Docente Tutor</h2><!-- Rol del usuario -->
+
+        <ul class="sidebar-menu"><!-- Menú lateral -->
+            <li><a href="06. docente.html">Dashboard</a></li><!-- Acceso al panel principal -->
+            <li class="active">
+                <a href="07. revision_bitacora.html">
+                    Revisión de Bitácoras
+                </a><!-- Página actual -->
+            </li>
+            <li>
+                <a href="08. observaciones.html">
+                    Observaciones
+                </a><!-- Acceso al módulo de observaciones -->
+            </li>
+        </ul>
+
+    </aside><!-- Fin de la barra lateral -->
+
+    <main class="content"><!-- Área principal -->
+
+        <div class="dashboard-header"><!-- Encabezado principal -->
+            <h1>Revisión de Bitácoras</h1><!-- Título de la página -->
+            <div class="user-icon">👨‍🏫</div><!-- Icono del docente -->
+        </div>
+
+        <div class="table-container"><!-- Contenedor de la tabla -->
+
+            <h2>Bitácoras Pendientes</h2><!-- Título de la sección -->
+
+            <table><!-- Tabla de bitácoras -->
+
+                <tr>
+                    <th>Estudiante</th><!-- Encabezado -->
+                    <th>Programa</th><!-- Encabezado -->
+                    <th>Fecha</th><!-- Encabezado -->
+                    <th>Actividad</th><!-- Encabezado -->
+                    <th>Estado</th><!-- Encabezado -->
+                </tr>
+
+                <tr>
+                    <td>Ana Torres</td><!-- Nombre del estudiante -->
+                    <td>Lic. Educación Infantil</td><!-- Programa académico -->
+                    <td>10/08/2026</td><!-- Fecha -->
+                    <td>Observación de clase</td><!-- Actividad registrada -->
+                    <td>Pendiente</td><!-- Estado -->
+                </tr>
+
+                <tr>
+                    <td>Juan Pérez</td><!-- Nombre del estudiante -->
+                    <td>Lic. Lengua Castellana</td><!-- Programa académico -->
+                    <td>12/08/2026</td><!-- Fecha -->
+                    <td>Planeación didáctica</td><!-- Actividad registrada -->
+                    <td>Pendiente</td><!-- Estado -->
+                </tr>
+
+                <tr>
+                    <td>Laura Gómez</td><!-- Nombre del estudiante -->
+                    <td>Lic. Lenguas Extranjeras</td><!-- Programa académico -->
+                    <td>14/08/2026</td><!-- Fecha -->
+                    <td>Diseño de actividad</td><!-- Actividad registrada -->
+                    <td>Pendiente</td><!-- Estado -->
+                </tr>
+
+            </table><!-- Fin de la tabla -->
+
+        </div><!-- Fin del contenedor -->
+
+        <div class="table-container"><!-- Contenedor de acciones -->
+
+            <h2>Acciones de Revisión</h2><!-- Título de la sección -->
+
+            <div class="quick-links"><!-- Contenedor de botones -->
+
+                <button class="btn-form aprobar">
+                    Aprobar Bitácora
+                </button><!-- Botón para aprobar una bitácora -->
+
+                <button class="btn-form rechazar">
+                    Solicitar Corrección
+                </button><!-- Botón para solicitar correcciones -->
+
+            </div>
+
+        </div><!-- Fin del contenedor de acciones -->
+
+    </main><!-- Fin del contenido principal -->
+
+</div><!-- Fin del contenedor principal -->
+
+</body><!-- Fin del contenido visible -->
+</html><!-- Fin del documento HTML -->

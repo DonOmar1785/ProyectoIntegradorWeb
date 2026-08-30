@@ -1,0 +1,143 @@
+<!DOCTYPE html><!-- Indica que se está utilizando HTML5 -->
+<html lang="es"><!-- Inicio del documento HTML en español -->
+<head><!-- Configuración de la página -->
+    <meta charset="UTF-8"><!-- Permite mostrar caracteres especiales -->
+    <title>Seguimiento</title><!-- Título mostrado en la pestaña del navegador -->
+    <link rel="stylesheet" href="estilo.css"><!-- Vincula el archivo CSS -->
+</head><!-- Fin de la configuración -->
+<body><!-- Inicio del contenido visible -->
+
+<div class="dashboard"><!-- Contenedor principal -->
+
+    <aside class="sidebar"><!-- Barra lateral de navegación -->
+
+        <div class="sidebar-logo">GP</div><!-- Logo del sistema -->
+
+        <h2>Director de Carrera</h2><!-- Rol del usuario -->
+
+        <ul class="sidebar-menu"><!-- Menú lateral -->
+            <li><a href="12. director.html">Dashboard</a></li><!-- Acceso al panel principal -->
+            <li><a href="13. gestion_academica.html">Gestión Académica</a></li><!-- Acceso a gestión académica -->
+            <li><a href="14. gestion_practicas.html">Gestión de Prácticas</a></li><!-- Acceso a gestión de prácticas -->
+            <li class="active"><a href="15. seguimiento.html">Seguimiento</a></li><!-- Página actual -->
+            <li><a href="16. reportes.html">Reportes</a></li><!-- Acceso a reportes -->
+        </ul>
+
+    </aside><!-- Fin de la barra lateral -->
+
+    <main class="content"><!-- Área principal -->
+
+        <div class="dashboard-header"><!-- Encabezado principal -->
+
+            <h1>Seguimiento de Prácticas</h1><!-- Título principal -->
+
+            <div class="user-icon">
+                📊
+            </div><!-- Icono representativo -->
+
+        </div>
+
+        <section class="stats"><!-- Indicadores de seguimiento -->
+
+            <div class="stat-card alerta-card">
+                <h3>Alertas</h3>
+                <p>5</p>
+            </div>
+
+            <div class="stat-card advertencia-card">
+                <h3>Bitácoras Pendientes</h3>
+                <p>12</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>Evaluaciones Pendientes</h3>
+                <p>4</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>Prácticas Activas</h3>
+                <p>137</p>
+            </div>
+
+        </section>
+
+        <div class="table-container"><!-- Tabla de alertas -->
+
+            <h2>Alertas del Sistema</h2><!-- Título de la sección -->
+
+            <table>
+
+                <tr>
+                    <th>Tipo</th><!-- Encabezado -->
+                    <th>Descripción</th><!-- Encabezado -->
+                    <th>Prioridad</th><!-- Encabezado -->
+                </tr>
+
+                <tr>
+                    <td>Bitácora</td><!-- Tipo -->
+                    <td>3 estudiantes llevan más de 15 días sin registrar bitácoras.</td><!-- Descripción -->
+                    <td>Alta</td><!-- Prioridad -->
+                </tr>
+
+                <tr>
+                    <td>Evaluación</td><!-- Tipo -->
+                    <td>Faltan 4 evaluaciones institucionales.</td><!-- Descripción -->
+                    <td>Media</td><!-- Prioridad -->
+                </tr>
+
+                <tr>
+                    <td>Horas</td><!-- Tipo -->
+                    <td>2 estudiantes tienen menos del 50% de horas requeridas.</td><!-- Descripción -->
+                    <td>Alta</td><!-- Prioridad -->
+                </tr>
+
+            </table>
+
+        </div>
+
+        <br><!-- Salto de línea -->
+
+        <div class="table-container"><!-- Tabla de seguimiento especial -->
+
+            <h2>Estudiantes con Seguimiento Especial</h2><!-- Título -->
+
+            <table>
+
+                <tr>
+                    <th>Estudiante</th><!-- Encabezado -->
+                    <th>Programa</th><!-- Encabezado -->
+                    <th>Horas</th><!-- Encabezado -->
+                    <th>Estado</th><!-- Encabezado -->
+                </tr>
+
+                <tr>
+                    <td>Ana Torres</td><!-- Estudiante -->
+                    <td>Educación Infantil</td><!-- Programa -->
+                    <td>35%</td><!-- Avance -->
+                    <td>Retraso</td><!-- Estado -->
+                </tr>
+
+                <tr>
+                    <td>Juan Pérez</td><!-- Estudiante -->
+                    <td>Lengua Castellana</td><!-- Programa -->
+                    <td>48%</td><!-- Avance -->
+                    <td>Observación</td><!-- Estado -->
+                </tr>
+
+                <tr>
+                    <td>Laura Gómez</td><!-- Estudiante -->
+                    <td>Lenguas Extranjeras</td><!-- Programa -->
+                    <td>92%</td><!-- Avance -->
+                    <td>Normal</td><!-- Estado -->
+                </tr>
+
+            </table>
+
+        </div>
+
+    </main><!-- Fin del contenido principal -->
+
+</div><!-- Fin del contenedor principal -->
+
+</body><!-- Fin del contenido visible -->
+</html><!-- Fin del documento HTML -->

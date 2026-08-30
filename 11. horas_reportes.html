@@ -1,0 +1,123 @@
+<!DOCTYPE html><!-- Indica que se está utilizando HTML5 -->
+<html lang="es"><!-- Inicio del documento HTML en español -->
+
+<head><!-- Configuración de la página -->
+    <meta charset="UTF-8"><!-- Permite mostrar caracteres especiales -->
+    <title>Horas y Reportes</title><!-- Título mostrado en la pestaña del navegador -->
+    <link rel="stylesheet" href="estilo.css"><!-- Vincula el archivo CSS -->
+</head><!-- Fin de la configuración -->
+
+<body><!-- Inicio del contenido visible -->
+
+    <div class="dashboard"><!-- Contenedor principal -->
+
+        <aside class="sidebar"><!-- Barra lateral de navegación -->
+
+            <div class="sidebar-logo">GP</div><!-- Logo del sistema -->
+
+            <h2>Asesor Pedagógico</h2><!-- Rol del usuario -->
+
+            <ul class="sidebar-menu"><!-- Menú lateral -->
+
+                <li>
+                    <a href="09. asesor.html">
+                        Dashboard
+                    </a>
+                </li><!-- Acceso al panel principal -->
+
+                <li>
+                    <a href="10. seguimiento_estudiantes.html">
+                        Seguimiento de Estudiantes
+                    </a>
+                </li><!-- Acceso al módulo de seguimiento -->
+
+                <li class="active">
+                    <a href="11. horas_reportes.html">
+                        Horas y Reportes
+                    </a>
+                </li><!-- Página actual -->
+
+            </ul>
+
+        </aside><!-- Fin de la barra lateral -->
+
+        <main class="content"><!-- Área principal -->
+
+            <div class="dashboard-header"><!-- Encabezado principal -->
+
+                <h1>Horas y Reportes</h1><!-- Título de la página -->
+
+                <div class="user-icon">
+                    📊
+                </div><!-- Icono representativo de reportes -->
+
+            </div>
+
+            <div class="table-container"><!-- Contenedor de la tabla -->
+
+                <h2>Validación de Horas</h2><!-- Título de la sección -->
+
+                <table><!-- Tabla de validación -->
+
+                    <tr>
+                        <th>Estudiante</th><!-- Encabezado -->
+                        <th>Horas Registradas</th><!-- Encabezado -->
+                        <th>Estado</th><!-- Encabezado -->
+                    </tr>
+
+                    <tr>
+                        <td>Ana Torres</td><!-- Nombre del estudiante -->
+                        <td>45</td><!-- Horas registradas -->
+                        <td>Pendiente</td><!-- Estado -->
+                    </tr>
+
+                    <tr>
+                        <td>Juan Pérez</td><!-- Nombre del estudiante -->
+                        <td>52</td><!-- Horas registradas -->
+                        <td>Aprobada</td><!-- Estado -->
+                    </tr>
+
+                    <tr>
+                        <td>Laura Gómez</td><!-- Nombre del estudiante -->
+                        <td>38</td><!-- Horas registradas -->
+                        <td>Pendiente</td><!-- Estado -->
+                    </tr>
+
+                </table><!-- Fin de la tabla -->
+
+            </div><!-- Fin del contenedor -->
+
+            <br><!-- Salto de línea -->
+
+            <div class="table-container"><!-- Contenedor para generar reportes -->
+
+                <h2>Generar Reporte Institucional</h2><!-- Título de la sección -->
+
+                <div class="form-grid"><!-- Agrupa los controles -->
+
+                    <select><!-- Lista desplegable de instituciones -->
+                        <option>Seleccione Institución</option><!-- Opción por defecto -->
+                        <option>Colegio Las Américas</option><!-- Opción disponible -->
+                        <option>Colegio Central</option><!-- Opción disponible -->
+                        <option>Instituto Pedagógico</option><!-- Opción disponible -->
+                    </select>
+
+                    <input type="date"><!-- Fecha inicial del reporte -->
+
+                    <input type="date"><!-- Fecha final del reporte -->
+
+                    <button class="btn-form">
+                        Generar Reporte
+                    </button><!-- Botón para generar el reporte -->
+
+                </div>
+
+            </div><!-- Fin del contenedor -->
+
+        </main><!-- Fin del contenido principal -->
+
+    </div><!-- Fin del contenedor principal -->
+
+</body><!-- Fin del contenido visible -->
+
+</html><!-- Fin del documento HTML -->

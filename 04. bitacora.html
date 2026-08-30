@@ -1,0 +1,92 @@
+<!DOCTYPE html><!-- Indica que se está utilizando HTML5 -->
+<html lang="es"><!-- Inicio del documento HTML en español -->
+<head><!-- Configuración de la página -->
+    <meta charset="UTF-8"><!-- Permite el uso de caracteres especiales -->
+    <title>Bitácoras</title><!-- Título mostrado en la pestaña del navegador -->
+    <link rel="stylesheet" href="estilo.css"><!-- Vincula el archivo CSS -->
+</head><!-- Fin de la configuración -->
+<body><!-- Inicio del contenido visible -->
+
+<div class="dashboard"><!-- Contenedor principal -->
+
+    <aside class="sidebar"><!-- Barra lateral de navegación -->
+
+        <div class="sidebar-logo">GP</div><!-- Logo del sistema -->
+
+        <h2>Estudiante</h2><!-- Rol del usuario -->
+
+        <ul class="sidebar-menu"><!-- Menú lateral -->
+            <li><a href="02.%20estudiante.html">Dashboard</a></li><!-- Acceso al panel principal -->
+            <li><a href="03.%20practicas_estudiante.html">Mi Práctica</a></li><!-- Acceso al módulo de práctica -->
+            <li class="active"><a href="04.%20bitacora.html">Bitácoras</a></li><!-- Página actual -->
+            <li><a href="05.%20documento_estudiante.html">Documentos</a></li><!-- Acceso a documentos -->
+        </ul>
+
+    </aside><!-- Fin de la barra lateral -->
+
+    <main class="content"><!-- Contenido principal -->
+
+        <div class="dashboard-header"><!-- Encabezado principal -->
+            <h1>Registro de Bitácoras</h1><!-- Título de la página -->
+            <div class="user-icon">👨‍🎓</div><!-- Icono del estudiante -->
+        </div>
+
+        <div class="table-container"><!-- Contenedor del formulario -->
+
+            <h2>Nueva Bitácora</h2><!-- Título de la sección -->
+
+            <div class="form-grid"><!-- Agrupa los campos del formulario -->
+
+                <input type="date"><!-- Campo para seleccionar la fecha -->
+
+                <input type="number" placeholder="Horas realizadas"><!-- Campo para registrar las horas -->
+
+                <textarea placeholder="Describa las actividades realizadas"></textarea><!-- Campo para describir actividades -->
+
+                <button class="btn-form">
+                    Registrar Bitácora
+                </button><!-- Botón para registrar la bitácora -->
+
+            </div>
+
+        </div><!-- Fin del formulario -->
+
+        <br><!-- Salto de línea -->
+
+        <div class="table-container"><!-- Contenedor de la tabla -->
+
+            <h2>Bitácoras Registradas</h2><!-- Título de la sección -->
+
+            <table><!-- Tabla de bitácoras -->
+
+                <tr>
+                    <th>Fecha</th><!-- Encabezado -->
+                    <th>Actividad</th><!-- Encabezado -->
+                    <th>Horas</th><!-- Encabezado -->
+                    <th>Estado</th><!-- Encabezado -->
+                </tr>
+
+                <tr>
+                    <td>10/08/2026</td><!-- Fecha registrada -->
+                    <td>Observación de clase</td><!-- Actividad realizada -->
+                    <td>4</td><!-- Horas registradas -->
+                    <td>Aprobada</td><!-- Estado -->
+                </tr>
+
+                <tr>
+                    <td>15/08/2026</td><!-- Fecha registrada -->
+                    <td>Planeación de actividades</td><!-- Actividad realizada -->
+                    <td>5</td><!-- Horas registradas -->
+                    <td>Pendiente</td><!-- Estado -->
+                </tr>
+
+            </table><!-- Fin de la tabla -->
+
+        </div><!-- Fin del contenedor -->
+
+    </main><!-- Fin del contenido principal -->
+
+</div><!-- Fin del contenedor principal -->
+
+</body><!-- Fin del contenido visible -->
+</html><!-- Fin del documento HTML -->

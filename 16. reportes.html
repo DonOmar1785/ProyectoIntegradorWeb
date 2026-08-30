@@ -1,0 +1,131 @@
+<!DOCTYPE html><!-- Indica que se está utilizando HTML5 -->
+<html lang="es"><!-- Inicio del documento HTML en español -->
+<head><!-- Configuración principal de la página -->
+    <meta charset="UTF-8"><!-- Permite el uso correcto de caracteres especiales -->
+    <title>Reportes</title><!-- Título mostrado en la pestaña del navegador -->
+    <link rel="stylesheet" href="estilo.css"><!-- Vincula el archivo de estilos CSS -->
+</head><!-- Fin de la configuración -->
+<body><!-- Inicio del contenido visible para el usuario -->
+
+<div class="dashboard"><!-- Contenedor principal del sistema -->
+
+    <aside class="sidebar"><!-- Barra lateral de navegación -->
+
+        <div class="sidebar-logo">GP</div><!-- Logo del sistema -->
+
+        <h2>Director de Carrera</h2><!-- Nombre del rol que accede al módulo -->
+
+        <ul class="sidebar-menu"><!-- Menú lateral -->
+            <li><a href="12. director.html">Dashboard</a></li><!-- Acceso al panel principal -->
+            <li><a href="13. gestion_academica.html">Gestión Académica</a></li><!-- Acceso a gestión académica -->
+            <li><a href="14. gestion_practicas.html">Gestión de Prácticas</a></li><!-- Acceso a gestión de prácticas -->
+            <li><a href="15. seguimiento.html">Seguimiento</a></li><!-- Acceso al módulo de seguimiento -->
+            <li class="active"><a href="16. reportes.html">Reportes</a></li><!-- Página actual -->
+        </ul>
+
+    </aside><!-- Fin de la barra lateral -->
+
+    <main class="content"><!-- Área principal de trabajo -->
+
+        <div class="dashboard-header"><!-- Encabezado principal -->
+
+            <h1>Reportes Institucionales</h1><!-- Título de la página -->
+
+            <div class="user-icon">
+                📑
+            </div><!-- Icono representativo del módulo -->
+
+        </div>
+
+        <section class="stats"><!-- Sección de indicadores generales -->
+
+            <div class="stat-card">
+                <h3>Reportes Generados</h3><!-- Indicador -->
+                <p>125</p><!-- Cantidad -->
+            </div>
+
+            <div class="stat-card">
+                <h3>Prácticas Finalizadas</h3><!-- Indicador -->
+                <p>98</p><!-- Cantidad -->
+            </div>
+
+            <div class="stat-card">
+                <h3>Instituciones Activas</h3><!-- Indicador -->
+                <p>15</p><!-- Cantidad -->
+            </div>
+
+            <div class="stat-card">
+                <h3>Estudiantes Activos</h3><!-- Indicador -->
+                <p>137</p><!-- Cantidad -->
+            </div>
+
+        </section><!-- Fin de estadísticas -->
+
+        <div class="table-container"><!-- Contenedor del formulario de generación -->
+
+            <h2>Generar Reporte</h2><!-- Título de la sección -->
+
+            <div class="form-grid"><!-- Agrupa los controles del formulario -->
+
+                <select><!-- Selección del tipo de reporte -->
+                    <option>Seleccione tipo de reporte</option>
+                    <option>Prácticas Activas</option>
+                    <option>Prácticas Finalizadas</option>
+                    <option>Bitácoras Registradas</option>
+                    <option>Evaluaciones</option>
+                </select>
+
+                <input type="date"><!-- Fecha inicial -->
+
+                <input type="date"><!-- Fecha final -->
+
+                <button class="btn-form">
+                    Generar Reporte
+                </button><!-- Botón para generar el reporte -->
+
+            </div>
+
+        </div><!-- Fin del formulario -->
+
+        <br><!-- Salto de línea -->
+
+        <div class="table-container"><!-- Contenedor de reportes generados -->
+
+            <h2>Reportes Recientes</h2><!-- Título de la sección -->
+
+            <table><!-- Tabla de reportes -->
+
+                <tr>
+                    <th>Reporte</th><!-- Encabezado -->
+                    <th>Fecha</th><!-- Encabezado -->
+                    <th>Estado</th><!-- Encabezado -->
+                </tr>
+
+                <tr>
+                    <td>Prácticas Activas</td><!-- Nombre del reporte -->
+                    <td>15/08/2026</td><!-- Fecha de generación -->
+                    <td>Generado</td><!-- Estado -->
+                </tr>
+
+                <tr>
+                    <td>Bitácoras Registradas</td><!-- Nombre del reporte -->
+                    <td>12/08/2026</td><!-- Fecha de generación -->
+                    <td>Generado</td><!-- Estado -->
+                </tr>
+
+                <tr>
+                    <td>Evaluaciones</td><!-- Nombre del reporte -->
+                    <td>10/08/2026</td><!-- Fecha de generación -->
+                    <td>Generado</td><!-- Estado -->
+                </tr>
+
+            </table><!-- Fin de la tabla -->
+
+        </div><!-- Fin del contenedor -->
+
+    </main><!-- Fin del contenido principal -->
+
+</div><!-- Fin del contenedor principal -->
+
+</body><!-- Fin del contenido visible -->
+</html><!-- Fin del documento HTML -->

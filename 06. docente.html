@@ -1,0 +1,115 @@
+<!DOCTYPE html><!-- Indica que se está utilizando HTML5 -->
+<html lang="es"><!-- Inicio del documento HTML en español -->
+<head><!-- Contiene la configuración de la página -->
+    <meta charset="UTF-8"><!-- Permite mostrar correctamente caracteres especiales -->
+    <title>Portal Docente Tutor</title><!-- Título mostrado en la pestaña del navegador -->
+    <link rel="stylesheet" href="estilo.css"><!-- Vincula el archivo CSS -->
+</head><!-- Fin de la configuración -->
+<body><!-- Inicio del contenido visible -->
+
+<div class="dashboard"><!-- Contenedor principal de la interfaz -->
+
+    <aside class="sidebar"><!-- Barra lateral de navegación -->
+
+        <div class="sidebar-logo">GP</div><!-- Logo del sistema -->
+
+        <h2>Docente Tutor</h2><!-- Rol del usuario -->
+
+        <ul class="sidebar-menu"><!-- Menú de navegación -->
+            <li class="active"><a href="06. docente.html">Dashboard</a></li><!-- Página actual -->
+            <li><a href="07. revision_bitacora.html">Revisión de Bitácoras</a></li><!-- Acceso a revisión de bitácoras -->
+            <li><a href="08. observaciones.html">Observaciones</a></li><!-- Acceso al módulo de observaciones -->
+        </ul>
+
+    </aside><!-- Fin de la barra lateral -->
+
+    <main class="content"><!-- Área principal del contenido -->
+
+        <div class="dashboard-header"><!-- Encabezado principal -->
+            <h1>Portal Docente Tutor</h1><!-- Título de la página -->
+            <div class="user-icon">👨‍🏫</div><!-- Icono representativo del docente -->
+        </div>
+
+        <div class="acciones-container"><!-- Contenedor de indicadores rápidos -->
+
+            <div class="accion-card alerta"><!-- Tarjeta de alerta -->
+                <h3>Bitácoras Pendientes</h3><!-- Título del indicador -->
+                <p>14</p><!-- Cantidad de bitácoras pendientes -->
+            </div>
+
+            <div class="accion-card advertencia"><!-- Tarjeta de advertencia -->
+                <h3>Observaciones Pendientes</h3><!-- Título del indicador -->
+                <p>3</p><!-- Cantidad de observaciones pendientes -->
+            </div>
+
+            <div class="accion-card correcto"><!-- Tarjeta informativa -->
+                <h3>Bitácoras Aprobadas</h3><!-- Título del indicador -->
+                <p>28</p><!-- Cantidad de bitácoras aprobadas -->
+            </div>
+
+        </div><!-- Fin del contenedor de indicadores -->
+
+        <section class="stats"><!-- Sección de estadísticas -->
+
+            <div class="stat-card"><!-- Tarjeta estadística -->
+                <h3>Estudiantes Asignados</h3><!-- Título -->
+                <p>28</p><!-- Valor -->
+            </div>
+
+            <div class="stat-card"><!-- Tarjeta estadística -->
+                <h3>Prácticas Activas</h3><!-- Título -->
+                <p>24</p><!-- Valor -->
+            </div>
+
+            <div class="stat-card"><!-- Tarjeta estadística -->
+                <h3>Bitácoras Revisadas</h3><!-- Título -->
+                <p>65</p><!-- Valor -->
+            </div>
+
+            <div class="stat-card"><!-- Tarjeta estadística -->
+                <h3>Observaciones</h3><!-- Título -->
+                <p>8</p><!-- Valor -->
+            </div>
+
+        </section><!-- Fin de la sección de estadísticas -->
+
+        <div class="table-container"><!-- Contenedor de la tabla -->
+
+            <h2>Actividad Reciente</h2><!-- Título de la sección -->
+
+            <table><!-- Tabla de actividades recientes -->
+
+                <tr>
+                    <th>Estudiante</th><!-- Encabezado -->
+                    <th>Actividad</th><!-- Encabezado -->
+                    <th>Fecha</th><!-- Encabezado -->
+                </tr>
+
+                <tr>
+                    <td>Ana Torres</td><!-- Nombre del estudiante -->
+                    <td>Bitácora enviada</td><!-- Actividad realizada -->
+                    <td>15/08/2026</td><!-- Fecha -->
+                </tr>
+
+                <tr>
+                    <td>Juan Pérez</td><!-- Nombre del estudiante -->
+                    <td>Bitácora aprobada</td><!-- Actividad realizada -->
+                    <td>14/08/2026</td><!-- Fecha -->
+                </tr>
+
+                <tr>
+                    <td>Laura Gómez</td><!-- Nombre del estudiante -->
+                    <td>Observación registrada</td><!-- Actividad realizada -->
+                    <td>14/08/2026</td><!-- Fecha -->
+                </tr>
+
+            </table><!-- Fin de la tabla -->
+
+        </div><!-- Fin del contenedor -->
+
+    </main><!-- Fin del contenido principal -->
+
+</div><!-- Fin del contenedor principal -->
+
+</body><!-- Fin del contenido visible -->
+</html><!-- Fin del documento HTML -->

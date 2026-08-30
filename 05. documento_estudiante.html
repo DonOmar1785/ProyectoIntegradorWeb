@@ -1,0 +1,100 @@
+<!DOCTYPE html><!-- Indica que se está utilizando HTML5 -->
+<html lang="es"><!-- Inicio del documento HTML en español -->
+<head><!-- Configuración de la página -->
+    <meta charset="UTF-8"><!-- Permite el uso de caracteres especiales -->
+    <title>Documentos</title><!-- Título de la página -->
+    <link rel="stylesheet" href="estilo.css"><!-- Vincula el archivo CSS -->
+</head><!-- Fin de la configuración -->
+<body><!-- Inicio del contenido visible -->
+
+<div class="dashboard"><!-- Contenedor principal -->
+
+    <aside class="sidebar"><!-- Barra lateral -->
+
+        <div class="sidebar-logo">GP</div><!-- Logo del sistema -->
+
+        <h2>Estudiante</h2><!-- Rol del usuario -->
+
+        <ul class="sidebar-menu"><!-- Menú lateral -->
+            <li><a href="02.%20estudiante.html">Dashboard</a></li><!-- Acceso al panel principal -->
+            <li><a href="03.%20practicas_estudiante.html">Mi Práctica</a></li><!-- Acceso al módulo de práctica -->
+            <li><a href="04.%20bitacora.html">Bitácoras</a></li><!-- Acceso al módulo de bitácoras -->
+            <li class="active"><a href="05.%20documento_estudiante.html">Documentos</a></li><!-- Página actual -->
+        </ul>
+
+    </aside><!-- Fin de la barra lateral -->
+
+    <main class="content"><!-- Contenido principal -->
+
+        <div class="dashboard-header"><!-- Encabezado -->
+            <h1>Gestión de Documentos</h1><!-- Título de la página -->
+            <div class="user-icon">👨‍🎓</div><!-- Icono del estudiante -->
+        </div>
+
+        <div class="table-container"><!-- Contenedor del formulario -->
+
+            <h2>Cargar Documento</h2><!-- Título de la sección -->
+
+            <div class="form-grid"><!-- Agrupa los controles -->
+
+                <select><!-- Lista desplegable -->
+                    <option>Seleccione documento</option><!-- Opción por defecto -->
+                    <option>Hoja de Vida</option><!-- Tipo de documento -->
+                    <option>Carta de Presentación</option><!-- Tipo de documento -->
+                    <option>Plan de Trabajo</option><!-- Tipo de documento -->
+                    <option>Informe Parcial</option><!-- Tipo de documento -->
+                    <option>Informe Final</option><!-- Tipo de documento -->
+                </select>
+
+                <input type="file"><!-- Permite seleccionar un archivo -->
+
+                <button class="btn-form">
+                    Subir Documento
+                </button><!-- Botón para cargar documentos -->
+
+            </div>
+
+        </div><!-- Fin del formulario -->
+
+        <br><!-- Salto de línea -->
+
+        <div class="table-container"><!-- Contenedor de la tabla -->
+
+            <h2>Documentos Registrados</h2><!-- Título de la sección -->
+
+            <table><!-- Tabla de documentos -->
+
+                <tr>
+                    <th>Documento</th><!-- Encabezado -->
+                    <th>Fecha</th><!-- Encabezado -->
+                    <th>Estado</th><!-- Encabezado -->
+                </tr>
+
+                <tr>
+                    <td>Hoja de Vida</td><!-- Documento -->
+                    <td>05/08/2026</td><!-- Fecha -->
+                    <td>Aprobado</td><!-- Estado -->
+                </tr>
+
+                <tr>
+                    <td>Plan de Trabajo</td><!-- Documento -->
+                    <td>12/08/2026</td><!-- Fecha -->
+                    <td>Pendiente</td><!-- Estado -->
+                </tr>
+
+                <tr>
+                    <td>Informe Parcial</td><!-- Documento -->
+                    <td>No cargado</td><!-- Fecha -->
+                    <td>Pendiente</td><!-- Estado -->
+                </tr>
+
+            </table><!-- Fin de la tabla -->
+
+        </div><!-- Fin del contenedor -->
+
+    </main><!-- Fin del contenido principal -->
+
+</div><!-- Fin del contenedor principal -->
+
+</body><!-- Fin del contenido visible -->
+</html><!-- Fin del documento HTML -->

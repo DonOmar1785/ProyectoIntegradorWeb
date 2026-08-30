@@ -1,0 +1,67 @@
+<!DOCTYPE html><!-- Indica que se está utilizando HTML5 -->
+<html lang="es"><!-- Inicio del documento HTML y define el idioma español -->
+<head><!-- Contiene información de configuración de la página -->
+    <meta charset="UTF-8"><!-- Permite mostrar correctamente caracteres especiales -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Adapta la página a diferentes dispositivos -->
+    <title>Iniciar Sesión - Gestión de Prácticas</title><!-- Título mostrado en la pestaña del navegador -->
+
+    <!-- Conexión con CSS -->
+    <link rel="stylesheet" href="estilo.css"><!-- Vincula el archivo CSS externo -->
+</head><!-- Fin de la sección de configuración -->
+
+<body class="login-body"><!-- Inicio del contenido visible de la página -->
+
+    <div class="login-container"><!-- Contenedor principal del formulario -->
+
+        <!-- Logo -->
+        <div class="logo-container"><!-- Contenedor del logo -->
+            <div class="logo">GP</div><!-- Logo representativo del sistema -->
+        </div>
+
+        <h1>Gestión de Prácticas</h1><!-- Título principal del sistema -->
+        <p class="login-subtitle">Inicia sesión para continuar</p><!-- Mensaje descriptivo para el usuario -->
+
+        <!-- Formulario -->
+        <form><!-- Inicio del formulario -->
+
+            <div class="input-group"><!-- Agrupa el campo de usuario -->
+                <label for="usuario">Usuario</label><!-- Etiqueta del campo usuario -->
+                <input 
+                    type="text" 
+                    id="usuario" 
+                    placeholder="Ingrese su usuario"
+                ><!-- Campo para ingresar el usuario -->
+            </div>
+
+            <div class="input-group"><!-- Agrupa el campo contraseña -->
+                <label for="password">Contraseña</label><!-- Etiqueta del campo contraseña -->
+                <input 
+                    type="password" 
+                    id="password" 
+                    placeholder="Ingrese su contraseña"
+                ><!-- Campo para ingresar la contraseña -->
+            </div>
+
+            <div class="login-options"><!-- Contenedor de opciones adicionales -->
+                <label>
+                    <input type="checkbox"><!-- Casilla para recordar la sesión -->
+                    Recordarme
+                </label>
+
+                <a href="#">¿Olvidaste tu contraseña?</a><!-- Enlace para recuperación de contraseña -->
+            </div>
+
+            <button type="button" class="btn-login">
+                Iniciar sesión
+            </button><!-- Botón para iniciar sesión -->
+
+        </form><!-- Fin del formulario -->
+
+        <p class="login-footer">
+            Sistema de Gestión de Prácticas Académicas
+        </p><!-- Texto informativo al final de la página -->
+
+    </div><!-- Fin del contenedor principal -->
+
+</body><!-- Fin del contenido visible -->
+</html><!-- Fin del documento HTML -->

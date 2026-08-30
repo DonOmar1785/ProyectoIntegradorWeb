@@ -1,0 +1,114 @@
+<!DOCTYPE html><!-- Indica que se está utilizando HTML5 -->
+<html lang="es"><!-- Inicio del documento HTML en español -->
+<head><!-- Configuración de la página -->
+    <meta charset="UTF-8"><!-- Permite mostrar caracteres especiales -->
+    <title>Observaciones Docente</title><!-- Título mostrado en la pestaña del navegador -->
+    <link rel="stylesheet" href="estilo.css"><!-- Vincula el archivo CSS -->
+</head><!-- Fin de la configuración -->
+<body><!-- Inicio del contenido visible -->
+
+<div class="dashboard"><!-- Contenedor principal -->
+
+    <aside class="sidebar"><!-- Barra lateral de navegación -->
+
+        <div class="sidebar-logo">GP</div><!-- Logo del sistema -->
+
+        <h2>Docente Tutor</h2><!-- Rol del usuario -->
+
+        <ul class="sidebar-menu"><!-- Menú lateral -->
+            <li><a href="06. docente.html">Dashboard</a></li><!-- Acceso al panel principal -->
+            <li><a href="07. revision_bitacora.html">Revisión de Bitácoras</a></li><!-- Acceso a revisión de bitácoras -->
+            <li class="active"><a href="08. observaciones.html">Observaciones</a></li><!-- Página actual -->
+        </ul>
+
+    </aside><!-- Fin de la barra lateral -->
+
+    <main class="content"><!-- Área principal -->
+
+        <div class="dashboard-header"><!-- Encabezado principal -->
+            <h1>Registro de Observaciones</h1><!-- Título de la página -->
+            <div class="user-icon">👨‍🏫</div><!-- Icono del docente -->
+        </div>
+
+        <div class="table-container"><!-- Contenedor del formulario -->
+
+            <h2>Nueva Observación</h2><!-- Título de la sección -->
+
+            <form><!-- Inicio del formulario -->
+
+                <div class="form-grid"><!-- Agrupa los campos -->
+
+                    <div class="form-group"><!-- Grupo de selección de estudiante -->
+                        <label>Estudiante</label><!-- Etiqueta descriptiva -->
+                        <select><!-- Lista desplegable -->
+                            <option>Ana Torres</option><!-- Opción disponible -->
+                            <option>Juan Pérez</option><!-- Opción disponible -->
+                            <option>Laura Gómez</option><!-- Opción disponible -->
+                        </select>
+                    </div>
+
+                    <div class="form-group"><!-- Grupo de fecha -->
+                        <label>Fecha</label><!-- Etiqueta descriptiva -->
+                        <input type="date"><!-- Campo para seleccionar fecha -->
+                    </div>
+
+                </div>
+
+                <div class="campo-completo"><!-- Campo de observación -->
+
+                    <label>Observación</label><!-- Etiqueta descriptiva -->
+
+                    <textarea placeholder="Ingrese la observación del estudiante"></textarea><!-- Área de texto para observaciones -->
+
+                </div>
+
+                <br><!-- Salto de línea -->
+
+                <button class="btn-form">
+                    Guardar Observación
+                </button><!-- Botón para guardar la observación -->
+
+            </form><!-- Fin del formulario -->
+
+        </div><!-- Fin del contenedor -->
+
+        <div class="table-container"><!-- Contenedor de la tabla -->
+
+            <h2>Observaciones Registradas</h2><!-- Título de la sección -->
+
+            <table><!-- Tabla de observaciones -->
+
+                <tr>
+                    <th>Estudiante</th><!-- Encabezado -->
+                    <th>Fecha</th><!-- Encabezado -->
+                    <th>Observación</th><!-- Encabezado -->
+                </tr>
+
+                <tr>
+                    <td>Ana Torres</td><!-- Nombre del estudiante -->
+                    <td>15/08/2026</td><!-- Fecha -->
+                    <td>Buen desempeño durante la práctica.</td><!-- Observación registrada -->
+                </tr>
+
+                <tr>
+                    <td>Juan Pérez</td><!-- Nombre del estudiante -->
+                    <td>14/08/2026</td><!-- Fecha -->
+                    <td>Debe fortalecer la planeación de actividades.</td><!-- Observación registrada -->
+                </tr>
+
+                <tr>
+                    <td>Laura Gómez</td><!-- Nombre del estudiante -->
+                    <td>13/08/2026</td><!-- Fecha -->
+                    <td>Presentó evidencias completas y a tiempo.</td><!-- Observación registrada -->
+                </tr>
+
+            </table><!-- Fin de la tabla -->
+
+        </div><!-- Fin del contenedor -->
+
+    </main><!-- Fin del contenido principal -->
+
+</div><!-- Fin del contenedor principal -->
+
+</body><!-- Fin del contenido visible -->
+</html><!-- Fin del documento HTML -->

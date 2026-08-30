@@ -1,0 +1,159 @@
+<!DOCTYPE html><!-- Indica que se está utilizando HTML5 -->
+<html lang="es"><!-- Inicio del documento HTML en español -->
+<head><!-- Configuración de la página -->
+    <meta charset="UTF-8"><!-- Permite mostrar caracteres especiales -->
+    <title>Gestión de Prácticas</title><!-- Título mostrado en la pestaña del navegador -->
+    <link rel="stylesheet" href="estilo.css"><!-- Vincula el archivo CSS -->
+</head><!-- Fin de la configuración -->
+<body><!-- Inicio del contenido visible -->
+
+<div class="dashboard"><!-- Contenedor principal -->
+
+    <aside class="sidebar"><!-- Barra lateral de navegación -->
+
+        <div class="sidebar-logo">GP</div><!-- Logo del sistema -->
+
+        <h2>Director de Carrera</h2><!-- Rol del usuario -->
+
+        <ul class="sidebar-menu"><!-- Menú lateral -->
+            <li><a href="12. director.html">Dashboard</a></li><!-- Acceso al panel principal -->
+            <li><a href="13. gestion_academica.html">Gestión Académica</a></li><!-- Acceso a gestión académica -->
+            <li class="active"><a href="14. gestion_practicas.html">Gestión de Prácticas</a></li><!-- Página actual -->
+            <li><a href="15. seguimiento.html">Seguimiento</a></li><!-- Acceso al seguimiento -->
+            <li><a href="16. reportes.html">Reportes</a></li><!-- Acceso a reportes -->
+        </ul>
+
+    </aside><!-- Fin de la barra lateral -->
+
+    <main class="content"><!-- Área principal -->
+
+        <div class="dashboard-header"><!-- Encabezado principal -->
+
+            <h1>Gestión de Prácticas</h1><!-- Título de la página -->
+
+            <div class="user-icon">
+                📚
+            </div><!-- Icono representativo -->
+
+        </div>
+
+        <section class="stats"><!-- Sección de estadísticas -->
+
+            <div class="stat-card">
+                <h3>Prácticas Activas</h3><!-- Indicador -->
+                <p>137</p><!-- Cantidad -->
+            </div>
+
+            <div class="stat-card">
+                <h3>Instituciones</h3><!-- Indicador -->
+                <p>15</p><!-- Cantidad -->
+            </div>
+
+            <div class="stat-card">
+                <h3>Docentes Tutores</h3><!-- Indicador -->
+                <p>18</p><!-- Cantidad -->
+            </div>
+
+            <div class="stat-card">
+                <h3>Asignaciones</h3><!-- Indicador -->
+                <p>124</p><!-- Cantidad -->
+            </div>
+
+        </section>
+
+        <div class="table-container"><!-- Formulario de asignación -->
+
+            <h2>Crear y Asignar Práctica</h2><!-- Título de la sección -->
+
+            <div class="form-grid"><!-- Contenedor de campos -->
+
+                <select><!-- Selección de estudiante -->
+                    <option>Seleccionar estudiante</option>
+                    <option>Ana Torres</option>
+                    <option>Juan Pérez</option>
+                    <option>Laura Gómez</option>
+                </select>
+
+                <select><!-- Selección de programa -->
+                    <option>Programa Académico</option>
+                    <option>Licenciatura en Educación Infantil</option>
+                    <option>Licenciatura en Lengua Castellana</option>
+                    <option>Licenciatura en Lenguas Extranjeras</option>
+                </select>
+
+                <select><!-- Selección de institución -->
+                    <option>Institución de práctica</option>
+                    <option>Colegio Las Américas</option>
+                    <option>Colegio Central</option>
+                    <option>Instituto Pedagógico</option>
+                </select>
+
+                <select><!-- Selección de tutor -->
+                    <option>Docente Tutor</option>
+                    <option>Carlos Rodríguez</option>
+                    <option>María Gómez</option>
+                    <option>Andrés Pérez</option>
+                </select>
+
+                <input type="date"><!-- Fecha de inicio -->
+
+                <input type="date"><!-- Fecha de finalización -->
+
+                <button class="btn-form">
+                    Registrar y Asignar
+                </button><!-- Botón de registro -->
+
+            </div>
+
+        </div>
+
+        <br><!-- Salto de línea -->
+
+        <div class="table-container"><!-- Tabla de prácticas -->
+
+            <h2>Prácticas Registradas</h2><!-- Título de la sección -->
+
+            <table>
+
+                <tr>
+                    <th>Estudiante</th><!-- Encabezado -->
+                    <th>Programa</th><!-- Encabezado -->
+                    <th>Institución</th><!-- Encabezado -->
+                    <th>Tutor</th><!-- Encabezado -->
+                    <th>Estado</th><!-- Encabezado -->
+                </tr>
+
+                <tr>
+                    <td>Ana Torres</td><!-- Estudiante -->
+                    <td>Educación Infantil</td><!-- Programa -->
+                    <td>Colegio Las Américas</td><!-- Institución -->
+                    <td>Carlos Rodríguez</td><!-- Tutor -->
+                    <td>Activa</td><!-- Estado -->
+                </tr>
+
+                <tr>
+                    <td>Juan Pérez</td><!-- Estudiante -->
+                    <td>Lengua Castellana</td><!-- Programa -->
+                    <td>Colegio Central</td><!-- Institución -->
+                    <td>María Gómez</td><!-- Tutor -->
+                    <td>Activa</td><!-- Estado -->
+                </tr>
+
+                <tr>
+                    <td>Laura Gómez</td><!-- Estudiante -->
+                    <td>Lenguas Extranjeras</td><!-- Programa -->
+                    <td>Instituto Pedagógico</td><!-- Institución -->
+                    <td>Andrés Pérez</td><!-- Tutor -->
+                    <td>Pendiente</td><!-- Estado -->
+                </tr>
+
+            </table>
+
+        </div>
+
+    </main><!-- Fin del contenido principal -->
+
+</div><!-- Fin del contenedor principal -->
+
+</body><!-- Fin del contenido visible -->
+</html><!-- Fin del documento HTML -->
